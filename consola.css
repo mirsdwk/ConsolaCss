@@ -9,15 +9,19 @@ body {
     justify-content: center;
 }
 
-.consola {
-    background-color: black;
-    height: 25em;
-    width: 60%;
+
+.pantalla {
+    background-color: rgb(48, 42, 42);
+    height: 60%;
+    width: 40%;
     display: flex;
+    justify-content: center;
     align-items: center;
-
-    border-radius: 4em 4em 4em 4em;
-
+    flex-direction: column;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .barra_izq {
@@ -28,16 +32,15 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    position: absolute; left: 17.5em;
+    position: absolute;
+    left: 17.25em;
     border-radius: 4em 0em 0em 4em;
 }
 
 .barra_izq_top {
-
     background-color: transparent;
     height: 9em;
     width: 10em;
-
 }
 
 .barra_izq_center {
@@ -59,12 +62,13 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    position: absolute; right: 17.5em;
+    position: absolute;
+    right: 16.25em;
     border-radius: 0em 4em 4em 0em;
 }
 
 .barra_der_top {
-    background-color: transparent;
+    background-color: blue;
     height: 9em;
     width: 10em;
     border-radius: 0em 4em 0em 0em;
@@ -82,22 +86,13 @@ body {
     width: 10em;
 }
 
-.pantalla {
-    background-color: black;
-    height: 100%;
-    width: 100%;
+
+.pantalla_juegos {
+    background-color: gray;
+    height: 40%;
+    width: 85%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 4em 4em 4em 4em;
-
+    justify-content: center;
 }
-
-.pantalla_interior {
-    background-color: rgb(33, 33, 33);
-    height: 95%;
-    width: 70%;
-
-}
-
