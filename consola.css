@@ -28,8 +28,7 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    position: absolute;
-    left: 17.5em;
+    position: absolute; left: 17.5em;
     border-radius: 4em 0em 0em 4em;
 }
 
@@ -60,8 +59,7 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    position: absolute;
-    right: 17.5em;
+    position: absolute; right: 17.5em;
     border-radius: 0em 4em 4em 0em;
 }
 
