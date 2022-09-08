@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(105, 5, 5);
+    background-color: hsl(11, 96%, 31%);
     height: 100vh;
     width: 100vw;
 
@@ -9,42 +9,128 @@ body {
     justify-content: center;
 }
 
+/* GENERAL */
+
+.general {
+
+    height: 30em;
+    width: 60em;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .pantalla {
-    background-color: rgb(48, 42, 42);
-    height: 26em;
+    background-color: black;
+
+    height: 28em;
     width: 40em;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 1em solid black;
-    
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    flex-direction: row;
+
+    border: 1em solid rgb(36, 32, 32);
+
+    border-radius: 0.5em;
+   
+}
+
+
+.pantalla_interior {
+    background-color: rgb(17, 16, 16);
+
+    height: 26em;
+    width: 33em;
 }
 
 .barra_izq {
+    background-color: #288fb4;
 
-    background-color: rgb(22, 22, 200);
-    height: 28em;
+    height: 30em;
     width: 10em;
+
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    position: absolute; left: 14.5em; 
+
     border-radius: 4em 0em 0em 4em;
 }
 
 .barra_izq_top {
     background-color: transparent;
+
     height: 9em;
     width: 10em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.left_stick {
+background-color: black;
+
+height: 5em;
+width: 5em;
+
+border-radius: 50%;
+
+
+
 }
 
 .barra_izq_center {
-    background-color: rgb(21, 21, 55);
+    background-color:transparent;
     height: 9em;
     width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_botones{
+    
+    height: 8em;
+    width: 8em;
+}
+
+
+.fila_botones {
+ height: calc(8em/3);
+ width: 8em;
+
+}
+
+.centrado {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.extremos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.boton {
+    background-color: black;
+
+ height: calc(8em/3);
+ width: calc(8em/3);
+
+ border-radius: 5em;
+
 }
 
 .barra_izq_bottom {
@@ -54,47 +140,71 @@ body {
 }
 
 .barra_der {
-    background-color: rgb(22, 22, 200);
-    height: 28em;
+    background-color: #288fb4;
+
+    height: 30em;
     width: 10em;
+
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    position: absolute;
-    right: 13.5em;
+
     border-radius: 0em 4em 4em 0em;
 }
 
 .barra_der_top {
+
     background-color: blue;
-    height: 9em;
+
+    height: 15em;
     width: 10em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border-radius: 0em 4em 0em 0em;
 }
 
+
 .barra_der_center {
-    background-color: rgb(21, 21, 55);
+    background-color: #288fb4;
+
     height: 9em;
     width: 10em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+.right_stick{
+    background-color: black;
+    
+    height: 5em;
+    width: 5em;
+    
+    border-radius: 50%;
+}
+    
+
 .barra_der_bottom {
+
     background-color: transparent;
+
     height: 9em;
     width: 10em;
 }
 
 
 .pantalla_juegos {
-  
     height: 40%;
     width: 85%;
+
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.general {
-    display: flex;
-}
