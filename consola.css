@@ -12,28 +12,26 @@ body {
 
 .pantalla {
     background-color: rgb(48, 42, 42);
-    height: 60%;
-    width: 40%;
+    height: 26em;
+    width: 40em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
+    border: 1em solid black;
+    
     border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .barra_izq {
 
     background-color: rgb(22, 22, 200);
-    height: 26em;
+    height: 28em;
     width: 10em;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    position: absolute;
-    left: 17.25em;
+    position: absolute; left: 14.5em; 
     border-radius: 4em 0em 0em 4em;
 }
 
@@ -57,13 +55,13 @@ body {
 
 .barra_der {
     background-color: rgb(22, 22, 200);
-    height: 26em;
+    height: 28em;
     width: 10em;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    right: 16.25em;
+    right: 13.5em;
     border-radius: 0em 4em 4em 0em;
 }
 
@@ -88,11 +86,15 @@ body {
 
 
 .pantalla_juegos {
-    background-color: gray;
+  
     height: 40%;
     width: 85%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.general {
+    display: flex;
 }
