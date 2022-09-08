@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(105, 5, 5);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.consola {
+    background-color: black;
+    height: 25em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+    border-radius: 4em 4em 4em 4em;
+
+}
+
+.barra_izq {
+
+    background-color: rgb(22, 22, 200);
+    height: 26em;
+    width: 10em;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: absolute;
+    left: 17.5em;
+    border-radius: 4em 0em 0em 4em;
+}
+
+.barra_izq_top {
+
+    background-color: transparent;
+    height: 9em;
+    width: 10em;
+
+}
+
+.barra_izq_center {
+    background-color: rgb(21, 21, 55);
+    height: 9em;
+    width: 10em;
+}
+
+.barra_izq_bottom {
+    background-color: transparent;
+    height: 9em;
+    width: 10em;
+}
+
+.barra_der {
+    background-color: rgb(22, 22, 200);
+    height: 26em;
+    width: 10em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    right: 17.5em;
+    border-radius: 0em 4em 4em 0em;
+}
+
+.barra_der_top {
+    background-color: transparent;
+    height: 9em;
+    width: 10em;
+    border-radius: 0em 4em 0em 0em;
+}
+
+.barra_der_center {
+    background-color: rgb(21, 21, 55);
+    height: 9em;
+    width: 10em;
+}
+
+.barra_der_bottom {
+    background-color: transparent;
+    height: 9em;
+    width: 10em;
+}
+
+.pantalla {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4em 4em 4em 4em;
+
+}
+
+.pantalla_interior {
+    background-color: rgb(33, 33, 33);
+    height: 95%;
+    width: 70%;
+
+}
+
