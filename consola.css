@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(11, 96%, 31%);
+    background-color:#efddb2;
     height: 100vh;
     width: 100vw;
 
@@ -31,7 +31,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+
+    /* flex-direction: row; */
 
     border: 1em solid rgb(36, 32, 32);
 
@@ -45,6 +46,14 @@ body {
 
     height: 26em;
     width: 33em;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+    /*background-image: url(img/749936\ Small.png);
+    background-repeat: no-repeat;
+    background-size: 120%; */
 }
 
 .barra_izq {
@@ -154,9 +163,9 @@ border-radius: 50%;
 
 .barra_der_top {
 
-    background-color: blue;
+    background-color:transparent;
 
-    height: 15em;
+    height: 10em;
     width: 10em;
 
     display: flex;
@@ -168,9 +177,8 @@ border-radius: 50%;
 
 
 .barra_der_center {
-    background-color: #288fb4;
 
-    height: 9em;
+    height: 10em;
     width: 10em;
 
     display: flex;
@@ -193,18 +201,12 @@ border-radius: 50%;
 
     background-color: transparent;
 
-    height: 9em;
+    height: 10em;
     width: 10em;
-}
-
-
-.pantalla_juegos {
-    height: 40%;
-    width: 85%;
 
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 
