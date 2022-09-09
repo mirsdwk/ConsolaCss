@@ -1,5 +1,5 @@
 body {
-    background-color:#efddb2;
+    background-color: #dfca99;
     height: 100vh;
     width: 100vw;
 
@@ -15,7 +15,7 @@ body {
 
     height: 30em;
     width: 60em;
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 
     height: 28em;
     width: 40em;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ body {
 
     border: 1em solid rgb(36, 32, 32);
 
-    border-radius: 0.5em;
-   
+    
+
 }
 
 
@@ -48,16 +48,16 @@ body {
     width: 33em;
 
     display: flex;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
 
-    /*background-image: url(img/749936\ Small.png);
-    background-repeat: no-repeat;
-    background-size: 120%; */
 }
 
+
+
 .barra_izq {
-    background-color: #288fb4;
+    background-color:rgb(30,188,228);
+    border-top: 7px solid black;
 
     height: 30em;
     width: 10em;
@@ -78,24 +78,44 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 
 }
 
 .left_stick {
-background-color: black;
+    background-color: rgb(45, 42, 42);
 
-height: 5em;
-width: 5em;
+    height: 5em;
+    width: 5em;
 
-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    border-radius: 50%;
+    
 
 
 }
 
+.left_stick:hover{
+
+    cursor: grabbing;
+    background-color: rgb(84, 78, 78);
+}
+
+.left_stick_borde{
+    background-color: black;
+
+    height: 4em;
+    width: 4em;
+
+    border-radius: 5em;
+}
+
 .barra_izq_center {
-    background-color:transparent;
+    background-color: transparent;
     height: 9em;
     width: 10em;
     display: flex;
@@ -103,16 +123,16 @@ border-radius: 50%;
     align-items: center;
 }
 
-.contenedor_botones{
-    
+.contenedor_botones {
+
     height: 8em;
     width: 8em;
 }
 
 
 .fila_botones {
- height: calc(8em/3);
- width: 8em;
+    height: calc(8em/3);
+    width: 8em;
 
 }
 
@@ -122,7 +142,7 @@ border-radius: 50%;
     align-items: center;
     justify-content: center;
 
-    
+
 }
 
 .extremos {
@@ -134,23 +154,60 @@ border-radius: 50%;
 
 .boton {
     background-color: black;
+    color:whitesmoke;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
- height: calc(8em/3);
- width: calc(8em/3);
+    height: calc(8em/3);
+    width: calc(8em/3);
 
- border-radius: 5em;
+    border-radius: 5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+    
 }
 
 .barra_izq_bottom {
     background-color: transparent;
     height: 9em;
     width: 10em;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.boton_izq_cuadrado{
+background-color:  rgb(45, 42, 42);
+
+margin: 2em;
+height: 2em;
+width: 2em;
+
+border-radius: 0.2em;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.boton_izq_cuadrado_borde{
+background-color: black;
+
+height: 1.5em;
+width: 1.5em;
+
+border-radius: 5em;
 }
 
 .barra_der {
-    background-color: #288fb4;
 
+
+    background-color: rgb(252,67,51);
+   
+    border-top: 7px solid black;
     height: 30em;
     width: 10em;
 
@@ -163,13 +220,12 @@ border-radius: 50%;
 
 .barra_der_top {
 
-    background-color:transparent;
+    background-color: transparent;
 
     height: 10em;
     width: 10em;
-
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 
     border-radius: 0em 4em 0em 0em;
@@ -187,15 +243,32 @@ border-radius: 50%;
 }
 
 
-.right_stick{
-    background-color: black;
-    
+.right_stick {
+    background-color: rgb(48, 46, 46);
+
     height: 5em;
     width: 5em;
-    
     border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-    
+.right_stick:hover{
+  cursor: grabbing;
+  background-color: rgb(84, 78, 78);
+
+}
+
+.right_stick_borde{
+background-color: black;
+
+height: 4em;
+width: 4em;
+
+border-radius: 5em ;
+}
+
 
 .barra_der_bottom {
 
@@ -205,8 +278,34 @@ border-radius: 50%;
     width: 10em;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:flex-start;
 }
 
+.bottom_stick{
 
+    background-color: rgb(48, 46, 46);
+
+    height: 3em;
+    width: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1em;
+    border-radius: 5em;
+}
+
+.bottom_stick_borde{
+    background-color: black;
+
+    height: 2.2em;
+    width: 2.2em;
+
+    
+    border-radius: 5em;
+    
+
+
+}
