@@ -301,7 +301,7 @@ body {
     transition: .5s;
 }
 
-.barra_der:focus {
+.barra_der:hover {
     transition: .5s;
     animation: barra_movimiento 1s linear;
 
