@@ -1,12 +1,11 @@
 body {
-    background-color: #dfca99;
-    height: 100vh;
-    width: 100vw;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+background-color: #dfca99;
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 /* GENERAL */
@@ -79,11 +78,11 @@ body {
 
 }
 
-.barra_izq:hover {
+ .barra_izq:hover {
     transition: .5s;
 
     animation: barra_movimiento 1s linear;
-}
+} 
 
 @keyframes barra_movimiento {
     0% {
@@ -131,7 +130,7 @@ body {
 
 }
 
-.left_stick:hover {
+ .left_stick:hover {
 
     cursor: grabbing;
     background-color: rgb(84, 78, 78);
@@ -139,6 +138,7 @@ body {
 
     animation: stick_movimiento .4s linear;
 }
+ 
 
 @keyframes stick_movimiento {
     0% {
@@ -222,11 +222,11 @@ body {
 
 }
 
-.boton:hover {
+ .boton:hover {
     transform: scale(.9);
 
     transition: .5s;
-}
+} */
 
 .flecha {
 
@@ -272,6 +272,8 @@ body {
     justify-content: center;
     align-items: center;
 
+    cursor: pointer;
+
 }
 
 .boton_izq_cuadrado_borde {
@@ -305,7 +307,7 @@ body {
     transition: .5s;
     animation: barra_movimiento 1s linear;
 
-}
+} 
 
 .barra_der_top {
 
@@ -344,14 +346,14 @@ body {
     align-items: center;
 }
 
-.right_stick:hover {
+ .right_stick:hover {
     cursor: grabbing;
     background-color: rgb(84, 78, 78);
     transition: .5s;
 
     animation: stick_movimiento .4s linear;
 
-}
+} 
 
 .right_stick_borde {
     background-color: black;
@@ -398,7 +400,7 @@ body {
 
     animation: stick_movimiento .4s linear;
 
-}
+} 
 
 .bottom_stick_borde {
     background-color: black;
@@ -409,6 +411,6 @@ body {
 
     border-radius: 5em;
 
-
+    
 
 }
